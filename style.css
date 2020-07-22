@@ -1,23 +1,24 @@
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(247, 144, 126, 0.8) 0%, rgba(79, 162, 211, 0.8) 100%), url("bg-head.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+    height: 100vh;
+    min-height: 500px;
+    background: url("bg-head.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 p {
     font-size: 20px;
+    font-family: 'Nunito', sans-serif;
  }
-.font-judul {
-    font-family: 'Baloo Bhai', cursive;
-    font-size: 85px;
-}
-.font-bawah-judul {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 30px;
-}
+ .judul {
+     font-size: 100px;
+     font-weight: bold;
+     font-family: 'Roboto', sans-serif;
+ }
+ .judul-cv {
+     font-size: 40px;
+     font-family: 'Prompt', sans-serif;
+ }
 .icon-size {
     font-size: 25px;
     margin: 5px;
@@ -28,9 +29,12 @@ p {
 .bg-grey {
     background: #f2f3f4;
 }
+.bg-senja {
+    background:  #f9ccb4 ;
+}
 .h2 {
-    font-family: 'Anton', sans-serif;
     font-size: 30px;
+    font-weight: bold;
 }
 .margin-about {
     margin: 40px;
@@ -108,7 +112,7 @@ p {
 }
 
 .count-text {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
     margin-top: 10px;
     margin-bottom: 0;
@@ -122,6 +126,9 @@ p {
     font-size: 40px;
     color: rgba(22, 102, 206, 0.8);
 }
+.container-fluid {
+    padding: 5px 1px;
+  }
 
 .margin-hitung {
     margin: 40px;
@@ -136,6 +143,7 @@ p {
 .judul-hobi {
     margin: 10px;
     font-weight: bold;
+    font-family: 'Nunito', sans-serif;
 }
 /* Main Footer */
 footer .main-footer{	padding: 20px 0;	background: #252525;}
@@ -177,6 +185,8 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 .widget li a{	color: #ff8d1e;}
 .widget li a:hover{	color: #4b92dc;}
 .widget-title {margin-bottom: 20px;}
+.widget-title {font-weight: bold;}
+.widget-title {font-size: 25px;}
 .widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
 .widget-title span::after {background: inherit;content: "";height: inherit;    position: absolute;top: -4px;width: 50%;}
 .widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
