@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /img/
+
+Sitemap: https://rohmatsaleh.com/sitemap.xml
